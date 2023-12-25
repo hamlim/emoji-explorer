@@ -1,0 +1,37 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "hattip serve ./hattip-entry.ts --client",
+    "build": "hattip build ./hattip-entry.ts --client"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@hattip/adapter-node": "^0.0.35",
+    "@hattip/vite": "^0.0.35",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.16",
+    "dprint": "^0.44.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@hattip/core": "^0.0.35",
+    "@hattip/router": "^0.0.35",
+    "hattip": "^0.0.33",
+    "vite": "^5.0.10",
+    "vike": "^0.4.150",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cross-fetch": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vike-react": "^0.3.7",
+    "vite-plugin-vercel": "^2.0.0",
+    "@vite-plugin-vercel/vike": "^2.0.0"
+  }
+}
